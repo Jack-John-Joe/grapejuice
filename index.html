@@ -6,5 +6,28 @@
 <title>Redirecting to https://jack-john-joe.github.io/grapejuice/redirect.html</title>
 </head>
 <body>
+<script type="module">
+  // Import the functions you need from the SDKs you need
+  import { initializeApp } from "https://www.gstatic.com/firebasejs/10.1.0/firebase-app.js";
+  import { getAnalytics } from "https://www.gstatic.com/firebasejs/10.1.0/firebase-analytics.js";
+  // TODO: Add SDKs for Firebase products that you want to use
+  // https://firebase.google.com/docs/web/setup#available-libraries
+
+  // Your web app's Firebase configuration
+  // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+  const firebaseConfig = {
+    apiKey: "AIzaSyBCQvbTPBIlD0hCihNucRkPZaUkXnrVM1Q",
+    authDomain: "grapejuice-16ba6.firebaseapp.com",
+    projectId: "grapejuice-16ba6",
+    storageBucket: "grapejuice-16ba6.appspot.com",
+    messagingSenderId: "1024229532954",
+    appId: "1:1024229532954:web:d49f1243c0e9366b0bf8a3",
+    measurementId: "G-XY6T19JZK4"
+  };
+
+  // Initialize Firebase
+  const app = initializeApp(firebaseConfig);
+  const analytics = getAnalytics(app);
+</script>
 </body>
 </html>
